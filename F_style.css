@@ -1,0 +1,32 @@
+.body{
+    padding:0px;
+    margin: 0px;
+}
+
+
+.obereich{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.mbereich{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.ubereich{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.sidebar {
+    width: 200px; /* Breite der Sidebar */
+    height: 100vh; /* Ganze Höhe des Bildschirms */
+    background-color: red;
+    flex-shrink: 0; /* Verhindert, dass sie schrumpft */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
